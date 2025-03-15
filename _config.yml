@@ -30,7 +30,7 @@ plugins:
 
 navigation:
   - title: home
-    url: /
+    url: /home/
   - title: Pawns
     url: /pawns/
   - title: About
