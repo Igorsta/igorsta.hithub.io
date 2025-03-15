@@ -1,6 +1,6 @@
 title: Chess openings
 description: 10 most popular chess openings. Site automatically generated.
-baseurl: "/igorsta.hithub.ios" # Repository name (if project site)
+baseurl: "/igorsta.hithub.io/" # Repository name (if project site)
 url: "https://igorsta.github.io" # No trailing slash!
 
 plugins:
