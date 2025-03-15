@@ -1,7 +1,7 @@
 title: Chess openings
 description: >- # this means to ignore newlines until "baseurl:"
   10 most popular chess opening. Site auomatically genereate.
-baseurl: "/igorsta.hithub.io/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://igorsta.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
