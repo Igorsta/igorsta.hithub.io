@@ -5,5 +5,5 @@ layout: home
 tittle: homes
 ---
 
-[about](/about/)
-[pawns](/pawns/)
+[about]({{ "/about/" | relative_url }})
+[pawns]({{ "/pawns/ "| relative_url }})
