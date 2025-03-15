@@ -5,5 +5,5 @@ layout: home
 tittle: homes
 ---
 
-[about](\about\)
-[pawns](\pawns\)
+[about](/igorsta.hithub.io/about/)
+[pawns](/igorsta.hithub.io/pawns/)
