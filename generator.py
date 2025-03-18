@@ -88,14 +88,15 @@ def make_page_for_opening(opening):
     os.makedirs(inner_folder, exist_ok=True)
     image_path = download_image(slug, opening['image_url']) if opening['image_url'] else None
     image_var = f"image: {image_path}\n" if image_path else ""
-    image_md = f"![{title}]({image_path})\n\n" if image_path else ""
+    image_md = f"![{title}](\\{image_path})\n\n" if image_path else ""
 
     content = f'''---
 layout: default
 title: "{title}"
 permalink: /openings/{slug}/
 {image_var}
----# {title}\n\n
+---
+# {title}\n\n
 {image_md}
 {opening['descr']}\n\n
 ## Official Documentation\n[Source]({opening['url']})\n
@@ -118,8 +119,8 @@ title: Chess Openings
     for opening in openings:
         title = opening['title']
         slug = slugify(title)
-        image_path = f"{slug}/{slug}.jpg" if opening['image_url'] else ""
-        image_md = f"![{title}]({image_path})\n\n" if opening['image_url'] else ""
+        image_path = f"{slug}\\{slug}.jpg" if opening['image_url'] else ""
+        image_md = f"![{title}](\\{image_path})\n\n" if opening['image_url'] else ""
         print(title)
         query = "what is "+ title
         print(query)
@@ -128,7 +129,7 @@ title: Chess Openings
         time.sleep(random.uniform(20, 30))
         info = info[0]['body'] if info else "No description found online."
 
-        homepage_content += f"""## [{title}]({slug}/)\n
+        homepage_content += f"""## [{title}](\\{subfolder_name}\\{slug})\n
 {image_md}\n
 {info}\n
 [Read more]({slug}/)\n
@@ -141,7 +142,6 @@ def main():
     url = "https://www.thechesswebsite.com/chess-openings/"
     openings = scrape_openings(url)
     os.makedirs("openings", exist_ok=True)
-    generate_homepage(openings)
     for opening in openings:
         opening['descr'] = scrape_details(opening['url'])
         make_page_for_opening(opening)
