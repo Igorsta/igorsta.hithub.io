@@ -1,9 +1,14 @@
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin  # To handle relative URLs
+from duckduckgo_search import DDGS  # Correct import
 import pprint
+import random
 from slugify import slugify
 import os
+import time
+
+subfolder_name = 'openings'
 
 def scrape_openings(url):
 
@@ -22,7 +27,7 @@ def scrape_openings(url):
             full_url = urljoin(url, link['href'])
         
             title = link.find('h5')
-            title_text = title.get_text(strip=True) if title else None
+            title_text = title.get_text(strip=True) if title else 'Untitled'
             
             img_tag = link.find('img')
             image_url = urljoin(url, img_tag['src']) if img_tag else None
@@ -68,7 +73,7 @@ def download_image(slug, url):
         
     ext = 'png' if 'png' in response.headers['Content-Type'] else 'jpg'
     filename = f"{slug}.{ext}"
-    path = os.path.join(slug, filename)
+    path = os.path.join(subfolder_name, slug, filename)
     
     with open(path, 'wb') as f:
         for chunk in response.iter_content(1024):
@@ -79,7 +84,8 @@ def download_image(slug, url):
 def make_page_for_opening(opening):
     title = opening['title']
     slug = slugify(title)
-    os.makedirs(slug, exist_ok=True)
+    inner_folder = os.path.join(subfolder_name, slug)
+    os.makedirs(inner_folder, exist_ok=True)
     image_path = download_image(slug, opening['image_url']) if opening['image_url'] else None
     image_var = f"image: {image_path}\n" if image_path else ""
     image_md = f"![{title}]({image_path})\n\n" if image_path else ""
@@ -92,20 +98,53 @@ permalink: /openings/{slug}/
 ---# {title}\n\n
 {image_md}
 {opening['descr']}\n\n
-## Official Documentation\n[Source]({opening['url']})
+## Official Documentation\n[Source]({opening['url']})\n
 '''
     
-    path = os.path.join(slug, "index.md")
+    path = os.path.join(inner_folder, "index.md")
     with open(path, 'w', encoding='utf-8') as f:
             f.write(content)
+
+def generate_homepage(openings):
+    homepage_content = """---
+layout: default
+title: Chess Openings
+---
+
+# Chess Openings Catalog
+
+"""
+    search = DDGS()
+    for opening in openings:
+        title = opening['title']
+        slug = slugify(title)
+        image_path = f"{slug}/{slug}.jpg" if opening['image_url'] else ""
+        image_md = f"![{title}]({image_path})\n\n" if opening['image_url'] else ""
+        print(title)
+        query = "what is "+ title
+        print(query)
+        info = list(search.text(keywords=query, timelimit='d', max_results=1))
+        print(info)
+        time.sleep(random.uniform(20, 30))
+        info = info[0]['body'] if info else "No description found online."
+
+        homepage_content += f"""## [{title}]({slug}/)\n
+{image_md}\n
+{info}\n
+[Read more]({slug}/)\n
+"""
+    
+    with open("index.md", "w", encoding="utf-8") as f:
+        f.write(homepage_content)
 
 def main():
     url = "https://www.thechesswebsite.com/chess-openings/"
     openings = scrape_openings(url)
+    os.makedirs("openings", exist_ok=True)
+    generate_homepage(openings)
     for opening in openings:
         opening['descr'] = scrape_details(opening['url'])
         make_page_for_opening(opening)
-
 
 if __name__ == "__main__":
     main()
