@@ -5,3 +5,7 @@ permalink: /pawns/
 ---
 
 Yuppi
+
+![pawn](\pawn_img.jpg)
+
+Proszę zadziałaj
