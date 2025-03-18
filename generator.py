@@ -87,7 +87,7 @@ def make_page_for_opening(opening):
     inner_folder = os.path.join(subfolder_name, slug)
     os.makedirs(inner_folder, exist_ok=True)
     image_name = download_image(slug, opening['image_url']) if opening['image_url'] else None
-    image_md = f"![{title}](\\{image_name})\n\n" if image_name else ""
+    image_md = f"![{title}](/{image_name})\n\n" if image_name else ""
 
     content = f'''---
 layout: default
@@ -118,7 +118,7 @@ title: Chess Openings
         title = opening['title']
         slug = slugify(title)
         image_path = f"{slug}\\{slug}.jpg" if opening['image_url'] else ""
-        image_md = f"![{title}](\\{image_path})\n\n" if opening['image_url'] else ""
+        image_md = f"![{title}](/{image_path})\n\n" if opening['image_url'] else ""
         print(title)
         query = "what is "+ title
         print(query)

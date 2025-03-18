@@ -6,7 +6,7 @@ permalink: /openings/blackmar-diemer-gambit/
 # Blackmar-Diemer Gambit
 
 
-![Blackmar-Diemer Gambit](\blackmar-diemer-gambit.jpg)
+![Blackmar-Diemer Gambit](/blackmar-diemer-gambit.jpg)
 
 
 The Blackmar-Diemer Gambit is one of the most ambitious attempts for white to gain a developmental advantage.

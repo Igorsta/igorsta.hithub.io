@@ -6,7 +6,7 @@ permalink: /openings/albin-counter-gambit/
 # Albin Counter-Gambit
 
 
-![Albin Counter-Gambit](\albin-counter-gambit.jpg)
+![Albin Counter-Gambit](/albin-counter-gambit.jpg)
 
 
 The Albin Counter-Gambit is a hyper aggressive defense for black against the ever so popular queens gambit from white.

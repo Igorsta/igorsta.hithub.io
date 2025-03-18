@@ -6,7 +6,7 @@ permalink: /openings/budapest-gambit/
 # Budapest Gambit
 
 
-![Budapest Gambit](\budapest-gambit.jpg)
+![Budapest Gambit](/budapest-gambit.jpg)
 
 
 The Budapest Gambit is one of the least common gambits but still offers black a lot of interesting play. In the main line for example, white can easily fall into a trap that ends in checkmate very early in the game.

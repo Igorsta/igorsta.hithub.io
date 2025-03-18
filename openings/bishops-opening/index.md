@@ -6,7 +6,7 @@ permalink: /openings/bishops-opening/
 # Bishop’s Opening
 
 
-![Bishop’s Opening](\bishops-opening.png)
+![Bishop’s Opening](/bishops-opening.png)
 
 
 The Bishop’s Opening is one of the oldest openings in chess but has fallen out of favor recently. It starts with the moves:
