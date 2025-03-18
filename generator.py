@@ -118,7 +118,8 @@ title: Chess Openings
     for opening in openings:
         title = opening['title']
         slug = slugify(title)
-        image_md = f"![{title}](/{slug}/{opening['image_name']})\n\n" if opening['image_url'] else ""
+        opening_subfolder = f"{subfolder_name}/{slug}"
+        image_md = f"![{title}](/{opening_subfolder}/{opening['image_name']})\n\n" if opening['image_url'] else ""
         # print(title)
         # query = "what is "+ title
         # print(query)
@@ -128,7 +129,7 @@ title: Chess Openings
         # info = info[0]['body'] if info else "No description found online."
         info = 'DETAILS'
 
-        homepage_content += f"""## [{title}]({{{{ "/{subfolder_name}/{slug}/" | relative_url }}}})\n
+        homepage_content += f"""## [{title}]({{{{ "/{opening_subfolder}/" | relative_url }}}})\n
 {image_md}\n
 {info}\n
 """
