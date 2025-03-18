@@ -113,19 +113,20 @@ title: Chess Openings
 # Chess Openings Catalog
 
 """
-    search = DDGS()
+    # search = DDGS()
     for opening in openings:
         title = opening['title']
         slug = slugify(title)
         image_path = f"{slug}\\{slug}.jpg" if opening['image_url'] else ""
         image_md = f"![{title}](/{image_path})\n\n" if opening['image_url'] else ""
-        print(title)
-        query = "what is "+ title
-        print(query)
-        info = list(search.text(keywords=query, timelimit='d', max_results=1))
-        print(info)
-        time.sleep(random.uniform(20, 30))
-        info = info[0]['body'] if info else "No description found online."
+        # print(title)
+        # query = "what is "+ title
+        # print(query)
+        # info = list(search.text(keywords=query, timelimit='d', max_results=1))
+        # print(info)
+        # time.sleep(random.uniform(20, 30))
+        # info = info[0]['body'] if info else "No description found online."
+        info = 'DETAILS'
 
         homepage_content += f"""## [{title}](\\{subfolder_name}\\{slug})\n
 {image_md}\n
@@ -143,6 +144,7 @@ def main():
     for opening in openings:
         opening['descr'] = scrape_details(opening['url'])
         make_page_for_opening(opening)
+    generate_homepage(openings)
 
 if __name__ == "__main__":
     main()
