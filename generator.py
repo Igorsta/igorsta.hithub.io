@@ -117,7 +117,7 @@ title: Chess Openings
     for opening in openings:
         title = opening['title']
         slug = slugify(title)
-        image_path = f"{slug}\\{slug}.jpg" if opening['image_url'] else ""
+        image_path = f"{slug}/{slug}.jpg" if opening['image_url'] else ""
         image_md = f"![{title}](/{image_path})\n\n" if opening['image_url'] else ""
         # print(title)
         # query = "what is "+ title
@@ -128,10 +128,10 @@ title: Chess Openings
         # info = info[0]['body'] if info else "No description found online."
         info = 'DETAILS'
 
-        homepage_content += f"""## [{title}](\\{subfolder_name}\\{slug})\n
+        homepage_content += f"""## [{title}]({{{{ "/{subfolder_name}/{slug}/" | relative_url }}}})\n
 {image_md}\n
 {info}\n
-[Read more]({slug}/)\n
+[Read more]({{{{ "/{slug}/" | relative_url }}}})\n
 """
     
     with open("index.md", "w", encoding="utf-8") as f:
@@ -144,7 +144,7 @@ def main():
     for opening in openings:
         opening['descr'] = scrape_details(opening['url'])
         make_page_for_opening(opening)
-    # generate_homepage(openings)
+    generate_homepage(openings)
 
 if __name__ == "__main__":
     main()

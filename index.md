@@ -1,7 +1,107 @@
 ---
-layout: home
-title: home # Corrected front matter
+layout: default
+title: Chess Openings
 ---
 
-[about]({{ "/about/" | relative_url }})
-[pawns](/pawns/)
+# Chess Openings Catalog
+
+## [Adelaide Counter Gambit]({{ "/openings/adelaide-counter-gambit/" | relative_url }})
+
+![Adelaide Counter Gambit](/adelaide-counter-gambit/adelaide-counter-gambit.jpg)
+
+
+
+DETAILS
+
+[Read more](/adelaide-counter-gambit/)
+
+## [Albin Counter-Gambit]({{ "/openings/albin-counter-gambit/" | relative_url }})
+
+![Albin Counter-Gambit](/albin-counter-gambit/albin-counter-gambit.jpg)
+
+
+
+DETAILS
+
+[Read more](/albin-counter-gambit/)
+
+## [Alekhine Defense]({{ "/openings/alekhine-defense/" | relative_url }})
+
+![Alekhine Defense](/alekhine-defense/alekhine-defense.jpg)
+
+
+
+DETAILS
+
+[Read more](/alekhine-defense/)
+
+## [Belgrade Gambit]({{ "/openings/belgrade-gambit/" | relative_url }})
+
+![Belgrade Gambit](/belgrade-gambit/belgrade-gambit.jpg)
+
+
+
+DETAILS
+
+[Read more](/belgrade-gambit/)
+
+## [Benoni Defense]({{ "/openings/benoni-defense/" | relative_url }})
+
+![Benoni Defense](/benoni-defense/benoni-defense.jpg)
+
+
+
+DETAILS
+
+[Read more](/benoni-defense/)
+
+## [Bird’s Opening]({{ "/openings/birds-opening/" | relative_url }})
+
+![Bird’s Opening](/birds-opening/birds-opening.jpg)
+
+
+
+DETAILS
+
+[Read more](/birds-opening/)
+
+## [Bishop’s Opening]({{ "/openings/bishops-opening/" | relative_url }})
+
+![Bishop’s Opening](/bishops-opening/bishops-opening.jpg)
+
+
+
+DETAILS
+
+[Read more](/bishops-opening/)
+
+## [Blackmar-Diemer Gambit]({{ "/openings/blackmar-diemer-gambit/" | relative_url }})
+
+![Blackmar-Diemer Gambit](/blackmar-diemer-gambit/blackmar-diemer-gambit.jpg)
+
+
+
+DETAILS
+
+[Read more](/blackmar-diemer-gambit/)
+
+## [Bogo Indian Defense]({{ "/openings/bogo-indian-defense/" | relative_url }})
+
+![Bogo Indian Defense](/bogo-indian-defense/bogo-indian-defense.jpg)
+
+
+
+DETAILS
+
+[Read more](/bogo-indian-defense/)
+
+## [Budapest Gambit]({{ "/openings/budapest-gambit/" | relative_url }})
+
+![Budapest Gambit](/budapest-gambit/budapest-gambit.jpg)
+
+
+
+DETAILS
+
+[Read more](/budapest-gambit/)
+
