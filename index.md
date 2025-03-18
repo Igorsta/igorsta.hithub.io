@@ -3,4 +3,4 @@ layout: default
 title: Chess Openings
 ---
 
-![pawn](/pawn_img.jpg)
+![pawn](/subsites/pawns/pawn_img.jpg)
