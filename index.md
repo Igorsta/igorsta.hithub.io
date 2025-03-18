@@ -7,13 +7,11 @@ title: Chess Openings
 
 ## [Adelaide Counter Gambit]({{ "/openings/adelaide-counter-gambit/" | relative_url }})
 
-![Adelaide Counter Gambit](/adelaide-counter-gambit/adelaide-counter-gambit.jpg)
+![Adelaide Counter Gambit](/adelaide-counter-gambit/adelaide-counter-gambit.png)
 
 
 
 DETAILS
-
-[Read more](/adelaide-counter-gambit/)
 
 ## [Albin Counter-Gambit]({{ "/openings/albin-counter-gambit/" | relative_url }})
 
@@ -23,8 +21,6 @@ DETAILS
 
 DETAILS
 
-[Read more](/albin-counter-gambit/)
-
 ## [Alekhine Defense]({{ "/openings/alekhine-defense/" | relative_url }})
 
 ![Alekhine Defense](/alekhine-defense/alekhine-defense.jpg)
@@ -32,8 +28,6 @@ DETAILS
 
 
 DETAILS
-
-[Read more](/alekhine-defense/)
 
 ## [Belgrade Gambit]({{ "/openings/belgrade-gambit/" | relative_url }})
 
@@ -43,8 +37,6 @@ DETAILS
 
 DETAILS
 
-[Read more](/belgrade-gambit/)
-
 ## [Benoni Defense]({{ "/openings/benoni-defense/" | relative_url }})
 
 ![Benoni Defense](/benoni-defense/benoni-defense.jpg)
@@ -52,8 +44,6 @@ DETAILS
 
 
 DETAILS
-
-[Read more](/benoni-defense/)
 
 ## [Bird’s Opening]({{ "/openings/birds-opening/" | relative_url }})
 
@@ -63,17 +53,13 @@ DETAILS
 
 DETAILS
 
-[Read more](/birds-opening/)
-
 ## [Bishop’s Opening]({{ "/openings/bishops-opening/" | relative_url }})
 
-![Bishop’s Opening](/bishops-opening/bishops-opening.jpg)
+![Bishop’s Opening](/bishops-opening/bishops-opening.png)
 
 
 
 DETAILS
-
-[Read more](/bishops-opening/)
 
 ## [Blackmar-Diemer Gambit]({{ "/openings/blackmar-diemer-gambit/" | relative_url }})
 
@@ -83,17 +69,13 @@ DETAILS
 
 DETAILS
 
-[Read more](/blackmar-diemer-gambit/)
-
 ## [Bogo Indian Defense]({{ "/openings/bogo-indian-defense/" | relative_url }})
 
-![Bogo Indian Defense](/bogo-indian-defense/bogo-indian-defense.jpg)
+![Bogo Indian Defense](/bogo-indian-defense/bogo-indian-defense.png)
 
 
 
 DETAILS
-
-[Read more](/bogo-indian-defense/)
 
 ## [Budapest Gambit]({{ "/openings/budapest-gambit/" | relative_url }})
 
@@ -102,6 +84,4 @@ DETAILS
 
 
 DETAILS
-
-[Read more](/budapest-gambit/)
 
