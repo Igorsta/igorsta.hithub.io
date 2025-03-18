@@ -144,7 +144,7 @@ def main():
     for opening in openings:
         opening['descr'] = scrape_details(opening['url'])
         make_page_for_opening(opening)
-    generate_homepage(openings)
+    # generate_homepage(openings)
 
 if __name__ == "__main__":
     main()
