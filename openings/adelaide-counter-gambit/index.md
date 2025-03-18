@@ -2,13 +2,11 @@
 layout: default
 title: "Adelaide Counter Gambit"
 permalink: /openings/adelaide-counter-gambit/
-image: openings/adelaide-counter-gambit/adelaide-counter-gambit.png
-
 ---
 # Adelaide Counter Gambit
 
 
-![Adelaide Counter Gambit](\openings/adelaide-counter-gambit/adelaide-counter-gambit.png)
+![Adelaide Counter Gambit](\adelaide-counter-gambit.png)
 
 
 The Adelaide Counter Gambit is a solid attack against the King’s Gambit for black and begins with the moves:

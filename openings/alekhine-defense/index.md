@@ -2,13 +2,11 @@
 layout: default
 title: "Alekhine Defense"
 permalink: /openings/alekhine-defense/
-image: openings/alekhine-defense/alekhine-defense.jpg
-
 ---
 # Alekhine Defense
 
 
-![Alekhine Defense](\openings/alekhine-defense/alekhine-defense.jpg)
+![Alekhine Defense](\alekhine-defense.jpg)
 
 
 The Alekhine Defense is a hypermodern defense against the ever so popular e4 opening from white.

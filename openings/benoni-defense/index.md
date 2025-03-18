@@ -2,13 +2,11 @@
 layout: default
 title: "Benoni Defense"
 permalink: /openings/benoni-defense/
-image: openings/benoni-defense/benoni-defense.jpg
-
 ---
 # Benoni Defense
 
 
-![Benoni Defense](\openings/benoni-defense/benoni-defense.jpg)
+![Benoni Defense](\benoni-defense.jpg)
 
 
 The Benoni Defense is a very aggressive line that black can play to counter the very common open by white d4. While many defenses against the queen pawn opening are closed and drawish, the Benoni Defense gives black many opportunities to not only equalize the position, but also to gain an advantage and play for the win.

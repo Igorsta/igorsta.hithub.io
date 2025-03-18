@@ -2,13 +2,11 @@
 layout: default
 title: "Belgrade Gambit"
 permalink: /openings/belgrade-gambit/
-image: openings/belgrade-gambit/belgrade-gambit.jpg
-
 ---
 # Belgrade Gambit
 
 
-![Belgrade Gambit](\openings/belgrade-gambit/belgrade-gambit.jpg)
+![Belgrade Gambit](\belgrade-gambit.jpg)
 
 
 The Belgrade Gambit is an aggressive line that derives from the Scotch Four Knights Game:

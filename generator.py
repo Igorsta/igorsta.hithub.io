@@ -79,22 +79,20 @@ def download_image(slug, url):
         for chunk in response.iter_content(1024):
             f.write(chunk)
             
-    return path
+    return filename
 
 def make_page_for_opening(opening):
     title = opening['title']
     slug = slugify(title)
     inner_folder = os.path.join(subfolder_name, slug)
     os.makedirs(inner_folder, exist_ok=True)
-    image_path = download_image(slug, opening['image_url']) if opening['image_url'] else None
-    image_var = f"image: {image_path}\n" if image_path else ""
-    image_md = f"![{title}](\\{image_path})\n\n" if image_path else ""
+    image_name = download_image(slug, opening['image_url']) if opening['image_url'] else None
+    image_md = f"![{title}](\\{image_name})\n\n" if image_name else ""
 
     content = f'''---
 layout: default
 title: "{title}"
 permalink: /openings/{slug}/
-{image_var}
 ---
 # {title}\n\n
 {image_md}

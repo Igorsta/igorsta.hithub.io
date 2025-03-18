@@ -2,13 +2,11 @@
 layout: default
 title: "Bogo Indian Defense"
 permalink: /openings/bogo-indian-defense/
-image: openings/bogo-indian-defense/bogo-indian-defense.png
-
 ---
 # Bogo Indian Defense
 
 
-![Bogo Indian Defense](\openings/bogo-indian-defense/bogo-indian-defense.png)
+![Bogo Indian Defense](\bogo-indian-defense.png)
 
 
 The Bogo Indian Defense is a chess opening that arrives after the starting moves:

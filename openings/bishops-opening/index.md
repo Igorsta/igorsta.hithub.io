@@ -2,13 +2,11 @@
 layout: default
 title: "Bishop’s Opening"
 permalink: /openings/bishops-opening/
-image: openings/bishops-opening/bishops-opening.png
-
 ---
 # Bishop’s Opening
 
 
-![Bishop’s Opening](\openings/bishops-opening/bishops-opening.png)
+![Bishop’s Opening](\bishops-opening.png)
 
 
 The Bishop’s Opening is one of the oldest openings in chess but has fallen out of favor recently. It starts with the moves:
