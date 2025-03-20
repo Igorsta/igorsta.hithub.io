@@ -105,7 +105,26 @@ permalink: /openings/{slug}/
     with open(path, 'w', encoding='utf-8') as f:
             f.write(content)
 
+def try_geting_details(query):
+    scraped_sites = [url for url in search(query, num_results=2)]
+    info = []
+    for url in scraped_sites:
+        try:
+            response = requests.get(url, timeout=5)
+            response.raise_for_status()  # Check for HTTP errors
+            soup = BeautifulSoup(response.text, "html.parser")
+
+            # Extract text (modify tag selection if needed)
+            paragraphs = soup.find_all("p")
+            text = "\n".join([para.get_text() for para in paragraphs])
+            info.append(text[:1000] + f"\n Description scraped from [here]({url})")
+        except Exception:
+            pass
+    
+    return random.choice(info) if info else "No Description online found"
+
 def generate_homepage(openings):
+    print("Making homepage")
     homepage_content = """---
 layout: default
 title: Chess Openings
@@ -114,24 +133,6 @@ title: Chess Openings
 # Chess Openings Catalog
 
 """
-        
-    def try_geting_details(query):
-        scraped_sites = [url for url in search(query, num_results=2)]
-        info = []
-        for url in scraped_sites:
-            try:
-                response = requests.get(url, timeout=5)
-                response.raise_for_status()  # Check for HTTP errors
-                soup = BeautifulSoup(response.text, "html.parser")
-
-                # Extract text (modify tag selection if needed)
-                paragraphs = soup.find_all("p")
-                text = "\n".join([para.get_text() for para in paragraphs])
-                info.append(text[:1000])
-            except Exception:
-                pass
-        
-        return random.choice(info) if info else "No details found"
         
     for opening in openings:
         title = opening['title']
@@ -144,6 +145,7 @@ title: Chess Openings
 {image_md}\n
 {info}\n
 """
+        print(f"\tserved the {title}")
     
     with open("index.md", "w", encoding="utf-8") as f:
         f.write(homepage_content)
