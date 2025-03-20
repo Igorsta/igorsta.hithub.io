@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin  # To handle relative URLs
-from duckduckgo_search import DDGS  # Correct import
+from urllib.parse import urljoin
+from googlesearch import search
 import pprint
 import random
 from slugify import slugify
@@ -114,20 +114,31 @@ title: Chess Openings
 # Chess Openings Catalog
 
 """
-    # search = DDGS()
+        
+    def try_geting_details(query):
+        scraped_sites = [url for url in search(query, num_results=2)]
+        info = []
+        for url in scraped_sites:
+            try:
+                response = requests.get(url, timeout=5)
+                response.raise_for_status()  # Check for HTTP errors
+                soup = BeautifulSoup(response.text, "html.parser")
+
+                # Extract text (modify tag selection if needed)
+                paragraphs = soup.find_all("p")
+                text = "\n".join([para.get_text() for para in paragraphs])
+                info.append(text[:1000])
+            except Exception:
+                pass
+        
+        return random.choice(info) if info else "No details found"
+        
     for opening in openings:
         title = opening['title']
         slug = slugify(title)
         opening_subfolder = f"{subfolder_name}/{slug}"
         image_md = f"![{title}](/{opening_subfolder}/{opening['image_name']})\n\n" if opening['image_url'] else ""
-        # print(title)
-        # query = "what is "+ title
-        # print(query)
-        # info = list(search.text(keywords=query, timelimit='d', max_results=1))
-        # print(info)
-        # time.sleep(random.uniform(20, 30))
-        # info = info[0]['body'] if info else "No description found online."
-        info = 'DETAILS'
+        info = try_geting_details(title + " definition")
 
         homepage_content += f"""## [{title}]({{{{ "/{opening_subfolder}/" | relative_url }}}})\n
 {image_md}\n
@@ -144,6 +155,7 @@ def main():
     for opening in openings:
         opening['descr'] = scrape_details(opening['url'])
         make_page_for_opening(opening)
+        print(f"Finished makeing {opening['title']}")
     generate_homepage(openings)
 
 if __name__ == "__main__":
