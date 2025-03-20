@@ -139,7 +139,7 @@ title: Chess Openings
         slug = slugify(title)
         opening_subfolder = f"{subfolder_name}/{slug}"
         image_md = f"![{title}](/{opening_subfolder}/{opening['image_name']})\n\n" if opening['image_url'] else ""
-        info = try_geting_details(title + " definition")
+        info = try_geting_details(title + " definition site:wikipedia.org")
 
         homepage_content += f"""## [{title}]({{{{ "/{opening_subfolder}/" | relative_url }}}})\n
 {image_md}\n

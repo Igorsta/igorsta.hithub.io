@@ -11,14 +11,13 @@ title: Chess Openings
 
 
 
-Hello guys! Welcome to a new blog on the series: Chess openings explained! Today I am going to show you to Adelaide counter-gambit which derives from the kings gambit again. The last one, the falkbeer counter-gambit was also from the king's gambit for black. This too is for black. If you want any white openings then you can tell me in the comments below.
-Without further adieu, let us get started with this trap!
-Before I start, I would like to give a brief introduction about this counter-gambit;
-The Adelaide Counter Gambit is a solid attack against the King’s Gambit for black and begins with the moves:
-1.e4 e52.f4 Nc63.Nf3 f5
-When white plays the King’s Gambit they are usually looking to give up material and then have the initiative for the early part of the game. This defense turns the tables on white and gives black multiple attacking lines and control of the center. White has to be careful because if they don’t play properly there are many traps they can fall into. Below are differen
+A Confederacy of Dunces is a picaresque novel by American novelist John Kennedy Toole which reached publication in 1980, eleven years after Toole's death.[2] Published through the efforts of writer Walker Percy (who also contributed a foreword) and Toole's mother, Thelma, the book became first a cult classic, then a mainstream success; it earned Toole a posthumous Pulitzer Prize for Fiction in 1981, and is now considered a canonical work of modern literature of the Southern United States.[3]
 
- [Complete description](https://www.chess.com/blog/GM-NiruMalVij/openings-explained-the-adelaide-counter-gambit)
+The book's title refers to an epigram from Jonathan Swift's essay Thoughts on Various Subjects, Moral and Diverting: "When a true genius appears in the world, you may know him by this sign, that the dunces are all in confederacy against him."
+
+A Confederacy of Dunces follows the misadventures of protagonist Ignatius J. Reilly, a lazy, overweight, misanthropic, self-styled scholar who lives at home with his mother. He is an educated but slothful 30-year-old man living in the Uptown neighborhood of 
+
+ [Complete description](https://en.wikipedia.org/wiki/A_Confederacy_of_Dunces)
 
 ## [Albin Counter-Gambit]({{ "/openings/albin-counter-gambit/" | relative_url }})
 
@@ -26,14 +25,15 @@ When white plays the King’s Gambit they are usually looking to give up materia
 
 
 
-I have seen the term "countergambit" and don't really know what it means. I know what it is, but I don't know what makes a move a "countergambit". I know of a few, including the Albin Countergambit, Panteldakis Counttergambit, and my most recently learned one, the Colorado Countergambit. In short, what makes a countergambit a countergambit?
-This is a tougher question than it appears. I always thought that a countergambit was simply a gambit played by Black, but I vaguely wondered why no one talks about the Benko Countergambit or the Latvian Countergambit. It seems it more properly refers to a gambit played against a gambit: the Albin is played against the Queen's Gambt, the Falkbeer against the King's Gambit etc. This would suggest that some countergambits could be played by White, but I can't think of any.
-Yes, but MOST countergambits take more than 3 moves. (In total by both colors)
-Yes, a countergambit is a gambit offered by black.
-[deleted] 
-There is a 1974 booklet Counter Gambits 
+The Queen's Gambit is the chess opening that starts with the moves:[1]
 
- [Complete description](https://www.chess.com/forum/view/chess-openings/what-exactly-is-a-countergambit)
+It is one of the oldest openings and is still commonly played today. It is traditionally described as a gambit because White appears to sacrifice the c-pawn; however, this could be considered a misnomer as Black cannot retain the pawn without incurring a disadvantage.[2][3]
+
+The Queen's Gambit is one of the oldest known openings in chess. It was mentioned in the Göttingen manuscript of 1490 and was later analyzed by Gioachino Greco in the 17th century.[3] In the 18th century, it was recommended by Philipp Stamma of Aleppo and is sometimes known as the Aleppo Gambit in his honor.[4]  During the early period of modern chess, queen pawn openings were not in fashion, and the Queen's Gambit did not become commonplace until the 1873 tournament in Vienna.[5]
+
+As Wilhelm Steinitz and Siegbert Tarrasch developed chess theory and increased the appreciation of positional play, the Queen's Gambit grew more popular,[5] reaching
+
+ [Complete description](https://en.wikipedia.org/wiki/Queen%27s_Gambit)
 
 ## [Alekhine Defense]({{ "/openings/alekhine-defense/" | relative_url }})
 
@@ -41,13 +41,15 @@ There is a 1974 booklet Counter Gambits
 
 
 
-Alekhine's Defense is a hypermodern response to 1.e4. Black lets White establish a presence in the center with the goal of proving it overextended. Although 1...Nf6 is only Black's eighth-most popular response to 1.e4, it scores as well as some much more common moves like the #3 French (1...e6) and #5 Pirc (1...d6).
-The Alekhine Defense is 1.e4 Nf6. Games almost always continue 2.e5 Nd5 followed mostly by 3.d4 d6. Black's third move is the first little poke at White's center.
-White has two main fourth moves in Alekhine's Defense: 4.Nf3, the Modern Variation, and 4.c4 Nb6, which turns into the Exchange Variation after 5.exd6 or the Four Pawns Attack after 5.f4.
-White and Black have the same main goals in each variation: White is trying to hold ground in the center and Black is trying to take it down.
-The Modern Variation is White's most popular choice, focusing on development to support the center with pieces. It is called the Modern in comparison to the more classical approach of conti
+Alekhine's gun is a formation in chess named after the former world chess champion Alexander Alekhine. It is a specific kind of battery. This formation was named after a game he played against Aron Nimzowitsch in Sanremo 1930, ending with Alekhine's decisive victory.
 
- [Complete description](https://www.chess.com/openings/Alekhines-Defense)
+The idea consists of placing the two rooks stacked one behind another and the queen at the rear. This can lead to substantial material loss for the opponent as it places considerable pressure on the "target" of the gun, especially if it is pinned (in this case it was only four moves before resignation).
+
+Here is the game that spawned Alekhine's gun:
+
+Six years later, in 1936, Alekhine defeated William Winter using Alekhine's gun again.[2]  Since then, players have learned much about using and guarding against this formation; however, some international games are still lost or won by the force of this tactic. In November 2018 it was successfully used by Ju Wenjun against Kateryna Lagno in game 4 of the FIDE Women's World C
+
+ [Complete description](https://en.wikipedia.org/wiki/Alekhine%27s_gun)
 
 ## [Belgrade Gambit]({{ "/openings/belgrade-gambit/" | relative_url }})
 
@@ -55,13 +57,41 @@ The Modern Variation is White's most popular choice, focusing on development to 
 
 
 
-Spice Up the Four Knights with the Belgrade Gambit!
-Looking for a way to spice up the open games? Simon Williams, the Ginger GM, takes the quiet Four Knights opening and spices it up with a gambit, featuring a lot of his original analysis. Take the game out of theory and into a whirlwind attack as quickly as possible.
-Here is what you will learn:
-"My favorite GM to listen to so far. Simon is easy to understand, simple, and clear and he explains WHY each move is good. He gives advice and a review. GREAT VIDEO!!!" - Chess.com member WATERZZ
-"Oh no!!  As a die-hard 1...e5 player, this line was one of the few lines that scared me.  I always brushed it off thinking to myself, "I don't have to worry about it, because no one knows about this move."  Now I'm worried again.  Great video!  Now I have to come up with something for it in case it's played against me." - Chess.com member Gartholomew
 
- [Complete description](https://www.chess.com/lessons/the-belgrade-gambit)
+
+This is a list of chess openings, organised by the Encyclopaedia of Chess Openings (ECO) code classification system. The chess openings are categorised into five broad areas ("A" through "E"), with each of those broken up into one hundred subcategories ("00" through "99"). The openings were published in five volumes of ECO, with volumes labeled "A" through "E". 
+
+White first moves other than 1.e4, 1.d4, 1.c4: 
+
+A02
+
+A03 Bird's Opening, Dutch Variation: 
+
+A04
+
+A05 Réti Opening: 1...Nf6
+
+A06 Réti Opening: 1...d5
+
+A07 Réti Opening, King's Indian Attack (Barcza System):
+
+A08 Réti Opening, King's Indian Attack: 
+
+A09 Réti Opening:
+
+1.c4: English Opening
+
+A10: 1.c4 (without: 1...g6 2.d4, 1...f5 2.d4, 1...b6 2.d4, 1...d6 2.e4, 1...d6 2.d4, 1...Nc6 2.d4) 
+
+A11 English, Caro–Kann defensive system, 1...c6 (without: 2.e4, 2.d4)
+
+A12 English, Caro–Kann defensive system: 2.Nf3 d5 3.b3 
+
+A13 English Opening: 1...e6 (without 2.e4 or 2.d4)
+
+A14 English, Neo-Catalan Declined: 2.Nf3 d5 3.g3 Nf6 4.Bg2 
+
+ [Complete description](https://en.wikipedia.org/wiki/List_of_chess_openings)
 
 ## [Benoni Defense]({{ "/openings/benoni-defense/" | relative_url }})
 
@@ -69,16 +99,13 @@ Here is what you will learn:
 
 
 
-Winning with the Benoni Defense
-1. d4 Nf6 c4 c5
+In the game of chess, Indian Defence or Indian Game is a broad term for a group of openings characterised by the moves:
 
-4. Nc3
- This is the most common move for white after 3... e6. The next few moves are almost always played in some order: exd5 5. cxd5 d6 (locking the centre) 6. e4 (taking the centre) g6 (preparing to fianchetto the bishop). White here has 4 main moves, 7. f4 (the Pawn Storm variation, an aggressive response aiming to take even more space in the centre of the board and preparing a kingside attack), 7. Nf3 (the Classical variation, a more solid move and developing a piece), 7. Bd3 (the Penrose variation) and 7. Bb5+. Most of these variations can be dealt with the same response Bg7 followed by O-O for black, with moves such as Nf3 and Bd3 for white are usually played afterwards. With 7. Bb5+, blocking the check with 7... Bd7 followed by 8. Bxd7 Nxd7 and black is doing fine. 
-Bonus: THE BLUMENFELD COUNTERGAMBIT 
-The Blumenfeld Countergambit arises after the following moves
+They are all to varying degrees hypermodern defences, where Black invites White to establish an imposing presence in the centre with the plan of undermining and ultimately destroying it. Although the Indian defences were championed in the 1920s by players in the hypermodern school, they were not fully accepted until Russian players showed in the late 1940s that these systems are sound for Black. Since then, the Indian defences have become a popular way for Black to respond to 1.d4 because they often offer a balanced game with winning chances for both sides. Transpositions are important and many variations can be reached by several move orders. It is also possible to transpose back into classical openings such as the Queen's Gambit and the Slav Defence; these are not considered "Indian" openings.
 
+The usual White second move is 2.c4, grabbing a larger share of the cen
 
- [Complete description](https://www.chess.com/blog/Exusiai/benoni-defence-overview)
+ [Complete description](https://en.wikipedia.org/wiki/Indian_Defence)
 
 ## [Bird’s Opening]({{ "/openings/birds-opening/" | relative_url }})
 
@@ -104,9 +131,17 @@ The opening was mentioned by Luis Ramírez de Lucena in his book Repetición de 
 
 
 
+The bishop (♗, ♝) is a piece in the game of chess. It moves and captures along diagonals without jumping over interfering pieces. Each player begins the game with two bishops. The starting squares are c1 and f1 for White's bishops, and c8 and f8 for Black's bishops.
+
+The king's bishop is placed on f1 for White and f8 for Black; the queen's bishop is placed on c1 for White and c8 for Black.
+
+The bishop has no restrictions in distance for each move but is limited to diagonal movement. It cannot jump over other pieces. A bishop captures by occupying the square on which an enemy piece stands. As a consequence of its diagonal movement, each bishop always remains on one square color. Due to this, it is common to refer to a bishop as a light-squared or dark-squared bishop. 
 
 
- [Complete description](https://www.youtube.com/watch?v=Qb3PWiIbIJs)
+
+A rook is generally worth about two pawns more than a bishop. The bishop has access to only half of the squares on the board, whereas all squares of the board are accessible to the rook. When unobstructed, a rook attack
+
+ [Complete description](https://en.wikipedia.org/wiki/Bishop_(chess))
 
 ## [Blackmar-Diemer Gambit]({{ "/openings/blackmar-diemer-gambit/" | relative_url }})
 
@@ -114,13 +149,12 @@ The opening was mentioned by Luis Ramírez de Lucena in his book Repetición de 
 
 
 
-The Blackmar–Diemer Gambit (or BDG) is a chess opening characterized by the moves:
 
-where White intends to follow up with f3, usually on the fourth move.  White obtains a tempo and a half-open f-file in return for a pawn, and as with most gambits, White aims to achieve rapid development and active posting of their pieces in order to rapidly build up an attack at the cost of the gambit pawn. It is one of the few gambits available to White after 1.d4.[1]
+This is a list of chess openings that are gambits.
+The gambits are organized into sections by the parent chess opening, giving the gambit name, ECO code, and defining moves in algebraic chess notation.
 
-The Blackmar–Diemer Gambit arose as a development of the earlier Blackmar Gambit, named after Armand Blackmar, a relatively little-known New Orleans player of the late 19th century who popularized its characteristic moves (1.d4 d5 2.e4 dxe4 3.f3) and was the first player to publish analysis of the opening.[2] The popularity of the original Blackmar Gambit, however, was short lived, as it was basically unsound, allowing Black to secure a superior position after White's immediate 3.f3 with 3...e5!. In 1889, Ignatz von Popiel came up with 
 
- [Complete description](https://en.wikipedia.org/wiki/Blackmar%E2%80%93Diemer_Gambit)
+ [Complete description](https://en.wikipedia.org/wiki/List_of_chess_gambits)
 
 ## [Bogo Indian Defense]({{ "/openings/bogo-indian-defense/" | relative_url }})
 
@@ -128,12 +162,15 @@ The Blackmar–Diemer Gambit arose as a development of the earlier Blackmar Gamb
 
 
 
-Obrona Bogolubowa – debiut oznaczony kodem ECO E11, którego pozycja powstaje po posunięciach:
+The Nimzo-Indian Defence is a chess opening characterised by the moves:
 
-Ten sposób rozgrywania debiutu wprowadził Jefim Bogolubow w 1920 r. w kilku partiach, grano wówczas 4.Gd2 G:d2+ i, aczkolwiek gry te nie przyniosły czarnym sukcesu, to jednak idea wymiany czarnopolowych gońców na trwałe zagościła w praktyce turniejowej. Obrona Bogolubowa ma opinię debiutu pasywnego, ale trudnego do przełamania: najczęściej pada wynik remisowy, przy czym najmodniejszym współcześnie wariantem jest: 4.Gd2 He7 5.g3, gdzie czarne dążą do przełomu e6-e5 a białe, ze swej strony, starają się wykorzystać większą aktywność białopolowego gońca po jego fianchettowaniu.
+Other move orders, such as 1.c4 e6 2.Nc3 Nf6 3.d4 Bb4, are also feasible. In the Encyclopaedia of Chess Openings, the Nimzo-Indian is classified as E20–E59.
 
+This hypermodern opening was developed by Aron Nimzowitsch who introduced it to master-level chess in the early 20th century. Unlike most Indian openings, the Nimzo-Indian does not involve an immediate fianchetto, although Black often follows up with ...b6 and ...Bb7. By pinning White's knight, Black prevents the threatened 4.e4 and seeks to inflict doubled pawns on White. White will attempt to create a pawn centre and develop their pieces to prepare for an assault on the Black position.
 
- [Complete description](https://pl.wikipedia.org/wiki/Obrona_Bogolubowa)
+Black's delay in committing to a pawn structure makes the Nimzo-Indian (sometimes colloquially referred to as the "Nimzo") a very flexible defence to 1.d4. It can also transpose into lines of the Queen's Gambit or Queen's Indian Defence. The Nimzo-Indian is a highly respecte
+
+ [Complete description](https://en.wikipedia.org/wiki/Nimzo-Indian_Defence)
 
 ## [Budapest Gambit]({{ "/openings/budapest-gambit/" | relative_url }})
 
