@@ -117,7 +117,7 @@ def try_geting_details(query):
             # Extract text (modify tag selection if needed)
             paragraphs = soup.find_all("p")
             text = "\n".join([para.get_text() for para in paragraphs])
-            info.append(text[:1000] + f"\n\n Description scraped from [here]({url})")
+            info.append(text[:1000] + f"\n\n [Complete description]({url})")
         except Exception:
             pass
     
