@@ -6,7 +6,7 @@ import pprint
 import random
 from slugify import slugify
 import os
-import time
+import shutil
 
 subfolder_name = 'openings'
 
@@ -18,27 +18,29 @@ def scrape_openings(url):
     soup = BeautifulSoup(response.content, 'html.parser')
     container = soup.find('div', class_="elementor-element elementor-element-7f0d9d87 elementor-widget elementor-widget-shortcode")
 
+    if not container:
+        return []
+    
     openings = []
-    if container:
-        for link in container.find_all('a', href=True):
-            if link.find('span') != None:
-                continue
+    for link in container.find_all('a', href=True):
+        if link.find('span') != None:
+            continue
 
-            full_url = urljoin(url, link['href'])
+        full_url = urljoin(url, link['href'])
+    
+        title = link.find('h5')
+        title_text = title.get_text(strip=True) if title else 'Untitled'
         
-            title = link.find('h5')
-            title_text = title.get_text(strip=True) if title else 'Untitled'
-            
-            img_tag = link.find('img')
-            image_url = urljoin(url, img_tag['src']) if img_tag else None
-            
-            openings.append({
-                'title': title_text,
-                'url': full_url,
-                'image_url': image_url
-            })
+        img_tag = link.find('img')
+        image_url = urljoin(url, img_tag['src']) if img_tag else None
+        
+        openings.append({
+            'title': title_text,
+            'url': full_url,
+            'image_url': image_url
+        })
 
-    return openings[:10]
+    return random.sample(openings, 10)
 
 def scrape_details(url):
     response = requests.get(url)
@@ -151,6 +153,7 @@ title: Chess Openings
         f.write(homepage_content)
 
 def main():
+    shutil.rmtree(subfolder_name)
     url = "https://www.thechesswebsite.com/chess-openings/"
     openings = scrape_openings(url)
     os.makedirs("openings", exist_ok=True)

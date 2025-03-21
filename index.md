@@ -5,93 +5,32 @@ title: Chess Openings
 
 # Chess Openings Catalog
 
-## [Adelaide Counter Gambit]({{ "/openings/adelaide-counter-gambit/" | relative_url }})
+## [Kings Indian Defense]({{ "/openings/kings-indian-defense/" | relative_url }})
 
-![Adelaide Counter Gambit](/openings/adelaide-counter-gambit/adelaide-counter-gambit.png)
-
-
-
-A Confederacy of Dunces is a picaresque novel by American novelist John Kennedy Toole which reached publication in 1980, eleven years after Toole's death.[2] Published through the efforts of writer Walker Percy (who also contributed a foreword) and Toole's mother, Thelma, the book became first a cult classic, then a mainstream success; it earned Toole a posthumous Pulitzer Prize for Fiction in 1981, and is now considered a canonical work of modern literature of the Southern United States.[3]
-
-The book's title refers to an epigram from Jonathan Swift's essay Thoughts on Various Subjects, Moral and Diverting: "When a true genius appears in the world, you may know him by this sign, that the dunces are all in confederacy against him."
-
-A Confederacy of Dunces follows the misadventures of protagonist Ignatius J. Reilly, a lazy, overweight, misanthropic, self-styled scholar who lives at home with his mother. He is an educated but slothful 30-year-old man living in the Uptown neighborhood of 
-
- [Complete description](https://en.wikipedia.org/wiki/A_Confederacy_of_Dunces)
-
-## [Albin Counter-Gambit]({{ "/openings/albin-counter-gambit/" | relative_url }})
-
-![Albin Counter-Gambit](/openings/albin-counter-gambit/albin-counter-gambit.jpg)
+![Kings Indian Defense](/openings/kings-indian-defense/kings-indian-defense.jpg)
 
 
 
-The Queen's Gambit is the chess opening that starts with the moves:[1]
+In the game of chess, Indian Defence or Indian Game is a broad term for a group of openings characterised by the moves:
 
-It is one of the oldest openings and is still commonly played today. It is traditionally described as a gambit because White appears to sacrifice the c-pawn; however, this could be considered a misnomer as Black cannot retain the pawn without incurring a disadvantage.[2][3]
+They are all to varying degrees hypermodern defences, where Black invites White to establish an imposing presence in the centre with the plan of undermining and ultimately destroying it. Although the Indian defences were championed in the 1920s by players in the hypermodern school, they were not fully accepted until Russian players showed in the late 1940s that these systems are sound for Black. Since then, the Indian defences have become a popular way for Black to respond to 1.d4 because they often offer a balanced game with winning chances for both sides. Transpositions are important and many variations can be reached by several move orders. It is also possible to transpose back into classical openings such as the Queen's Gambit and the Slav Defence; these are not considered "Indian" openings.
 
-The Queen's Gambit is one of the oldest known openings in chess. It was mentioned in the Göttingen manuscript of 1490 and was later analyzed by Gioachino Greco in the 17th century.[3] In the 18th century, it was recommended by Philipp Stamma of Aleppo and is sometimes known as the Aleppo Gambit in his honor.[4]  During the early period of modern chess, queen pawn openings were not in fashion, and the Queen's Gambit did not become commonplace until the 1873 tournament in Vienna.[5]
+The usual White second move is 2.c4, grabbing a larger share of the cen
 
-As Wilhelm Steinitz and Siegbert Tarrasch developed chess theory and increased the appreciation of positional play, the Queen's Gambit grew more popular,[5] reaching
+ [Complete description](https://en.wikipedia.org/wiki/Indian_Defence)
 
- [Complete description](https://en.wikipedia.org/wiki/Queen%27s_Gambit)
+## [King’s Gambit]({{ "/openings/kings-gambit/" | relative_url }})
 
-## [Alekhine Defense]({{ "/openings/alekhine-defense/" | relative_url }})
-
-![Alekhine Defense](/openings/alekhine-defense/alekhine-defense.jpg)
+![King’s Gambit](/openings/kings-gambit/kings-gambit.jpg)
 
 
 
-Alekhine's gun is a formation in chess named after the former world chess champion Alexander Alekhine. It is a specific kind of battery. This formation was named after a game he played against Aron Nimzowitsch in Sanremo 1930, ending with Alekhine's decisive victory.
+The King's Gambit is a chess opening which starts with these moves:
 
-The idea consists of placing the two rooks stacked one behind another and the queen at the rear. This can lead to substantial material loss for the opponent as it places considerable pressure on the "target" of the gun, especially if it is pinned (in this case it was only four moves before resignation).
-
-Here is the game that spawned Alekhine's gun:
-
-Six years later, in 1936, Alekhine defeated William Winter using Alekhine's gun again.[2]  Since then, players have learned much about using and guarding against this formation; however, some international games are still lost or won by the force of this tactic. In November 2018 it was successfully used by Ju Wenjun against Kateryna Lagno in game 4 of the FIDE Women's World C
-
- [Complete description](https://en.wikipedia.org/wiki/Alekhine%27s_gun)
-
-## [Belgrade Gambit]({{ "/openings/belgrade-gambit/" | relative_url }})
-
-![Belgrade Gambit](/openings/belgrade-gambit/belgrade-gambit.jpg)
+The opening is called a gambit because White sacrifices a pawn. In exchange for the pawn, White gets better development and opens up lines that can be used to attack/checkmate the black king. It was more popular in the 1800s, when many Black players did not know good ways to play against it.
 
 
-
-
-
-This is a list of chess openings, organised by the Encyclopaedia of Chess Openings (ECO) code classification system. The chess openings are categorised into five broad areas ("A" through "E"), with each of those broken up into one hundred subcategories ("00" through "99"). The openings were published in five volumes of ECO, with volumes labeled "A" through "E". 
-
-White first moves other than 1.e4, 1.d4, 1.c4: 
-
-A02
-
-A03 Bird's Opening, Dutch Variation: 
-
-A04
-
-A05 Réti Opening: 1...Nf6
-
-A06 Réti Opening: 1...d5
-
-A07 Réti Opening, King's Indian Attack (Barcza System):
-
-A08 Réti Opening, King's Indian Attack: 
-
-A09 Réti Opening:
-
-1.c4: English Opening
-
-A10: 1.c4 (without: 1...g6 2.d4, 1...f5 2.d4, 1...b6 2.d4, 1...d6 2.e4, 1...d6 2.d4, 1...Nc6 2.d4) 
-
-A11 English, Caro–Kann defensive system, 1...c6 (without: 2.e4, 2.d4)
-
-A12 English, Caro–Kann defensive system: 2.Nf3 d5 3.b3 
-
-A13 English Opening: 1...e6 (without 2.e4 or 2.d4)
-
-A14 English, Neo-Catalan Declined: 2.Nf3 d5 3.g3 Nf6 4.Bg2 
-
- [Complete description](https://en.wikipedia.org/wiki/List_of_chess_openings)
+ [Complete description](https://simple.wikipedia.org/wiki/King%27s_Gambit)
 
 ## [Benoni Defense]({{ "/openings/benoni-defense/" | relative_url }})
 
@@ -107,58 +46,9 @@ The usual White second move is 2.c4, grabbing a larger share of the cen
 
  [Complete description](https://en.wikipedia.org/wiki/Indian_Defence)
 
-## [Bird’s Opening]({{ "/openings/birds-opening/" | relative_url }})
+## [Nimzo Indian Defense]({{ "/openings/nimzo-indian-defense/" | relative_url }})
 
-![Bird’s Opening](/openings/birds-opening/birds-opening.jpg)
-
-
-
-
-
-Bird's Opening (or the Dutch Attack) is a chess opening characterised by the move:
-
-Named after 19th century English player Henry Bird, Bird's opening is a standard flank opening. White's strategic ideas involve control of the e5-square, offering good attacking chances at the expense of slightly weakening their own kingside. Black may challenge White's plan to control e5 immediately by playing From's Gambit (1...e5); however, the From Gambit is notoriously double-edged and should only be played after significant study.
-
-The Encyclopaedia of Chess Openings assigns two codes for Bird's Opening: A02 (1.f4) and A03 (1.f4 d5).
-
-The opening was mentioned by Luis Ramírez de Lucena in his book Repetición de Amores y Arte de Ajedrez con Cien Juegos de Partido, published c. 1497. In the mid-nineteenth century the opening was sometimes played by La Bourdonnais and Elijah Williams, among others. The British master Henry Edward Bird first played it in 1855 and continued to do so for the next 40 y
-
- [Complete description](https://en.wikipedia.org/wiki/Bird%27s_Opening)
-
-## [Bishop’s Opening]({{ "/openings/bishops-opening/" | relative_url }})
-
-![Bishop’s Opening](/openings/bishops-opening/bishops-opening.png)
-
-
-
-The bishop (♗, ♝) is a piece in the game of chess. It moves and captures along diagonals without jumping over interfering pieces. Each player begins the game with two bishops. The starting squares are c1 and f1 for White's bishops, and c8 and f8 for Black's bishops.
-
-The king's bishop is placed on f1 for White and f8 for Black; the queen's bishop is placed on c1 for White and c8 for Black.
-
-The bishop has no restrictions in distance for each move but is limited to diagonal movement. It cannot jump over other pieces. A bishop captures by occupying the square on which an enemy piece stands. As a consequence of its diagonal movement, each bishop always remains on one square color. Due to this, it is common to refer to a bishop as a light-squared or dark-squared bishop. 
-
-
-
-A rook is generally worth about two pawns more than a bishop. The bishop has access to only half of the squares on the board, whereas all squares of the board are accessible to the rook. When unobstructed, a rook attack
-
- [Complete description](https://en.wikipedia.org/wiki/Bishop_(chess))
-
-## [Blackmar-Diemer Gambit]({{ "/openings/blackmar-diemer-gambit/" | relative_url }})
-
-![Blackmar-Diemer Gambit](/openings/blackmar-diemer-gambit/blackmar-diemer-gambit.jpg)
-
-
-
-
-This is a list of chess openings that are gambits.
-The gambits are organized into sections by the parent chess opening, giving the gambit name, ECO code, and defining moves in algebraic chess notation.
-
-
- [Complete description](https://en.wikipedia.org/wiki/List_of_chess_gambits)
-
-## [Bogo Indian Defense]({{ "/openings/bogo-indian-defense/" | relative_url }})
-
-![Bogo Indian Defense](/openings/bogo-indian-defense/bogo-indian-defense.png)
+![Nimzo Indian Defense](/openings/nimzo-indian-defense/nimzo-indian-defense.jpg)
 
 
 
@@ -172,17 +62,118 @@ Black's delay in committing to a pawn structure makes the Nimzo-Indian (sometime
 
  [Complete description](https://en.wikipedia.org/wiki/Nimzo-Indian_Defence)
 
-## [Budapest Gambit]({{ "/openings/budapest-gambit/" | relative_url }})
+## [Caro-Kann]({{ "/openings/caro-kann/" | relative_url }})
 
-![Budapest Gambit](/openings/budapest-gambit/budapest-gambit.jpg)
+![Caro-Kann](/openings/caro-kann/caro-kann.jpg)
 
 
 
-The Budapest Gambit (or Budapest Defence) is a chess opening that begins with the moves:
+Die Grundstellung der Caro-Kann-Verteidigung nach 1. e2–e4 c7–c6
 
-Despite an early debut in 1896, the Budapest Gambit received attention from leading players only after a win as Black by Grandmaster Milan Vidmar over Akiba Rubinstein in 1918.[2] It enjoyed a rise in popularity in the early 1920s, but nowadays is rarely played at the top level. It experiences a lower percentage of draws than other main lines, but also a lower overall performance for Black.[3]
+Bei der Caro-Kann-Verteidigung oder kurz Caro-Kann handelt es sich um eine Eröffnung des Schachspiels. Sie zählt zu den Halboffenen Spielen und ist in den ECO-Codes unter den Schlüsseln B10 bis B19 klassifiziert. Benannt wurde sie nach dem englischen Schachspieler Horatio Caro und dem österreichischen Schachspieler Marcus Kann.
 
-After 3.dxe5 Black can try the Fajarowicz variation 3...Ne4 which concentrates on the rapid development of pieces, but the most common move is 3...Ng4 with three main possibilities for White. The Adler variation 4.Nf3 sees White seeking a spatial advantage in the centre with his pieces, notably the important d5-square. The Alekhine variation 4.e4 gives White an important spatial advantage and a strong pawn centre. The Rubinstein variation 4.Bf4 leads to an important choice for White, after 4...Nc6 5.Nf3 Bb4
+Die Grundstellung der Caro-Kann-Verteidigung entsteht nach den Zügen (in algebraischer Notation):
 
- [Complete description](https://en.wikipedia.org/wiki/Budapest_Gambit)
+1. e2–e4 c7–c6
+
+Eine erste überlieferte Partie mit dieser Eröffnung wurde bereits 1847 gespielt. Der Name „Caro's Eröffnung“ geht auf eine 1886 in der Berliner wöchentlichen Schachzeitung Brüderschaft veröffentlichte Analyse durch Horatio Caro zurück. Auch der Wiener Schachmeister Marcus Kann wandte die Eröffnung an. Den Doppelnamen aus Caro und Kann verwendete 1890 erstmals Curt von Bardeleben in einem Beitrag für die Deutsche Schachzeitung, wo er von einer „Eröffnung Caro-Kann“ sprach. Die heutige
+
+ [Complete description](https://de.wikipedia.org/wiki/Caro-Kann-Verteidigung)
+
+## [English Opening]({{ "/openings/english-opening/" | relative_url }})
+
+![English Opening](/openings/english-opening/english-opening.jpg)
+
+
+
+The opening is the initial stage of a chess game. It usually consists of established theory. The other phases are the middlegame and the endgame.[1] Many opening sequences, known as openings, have standard names such as "Sicilian Defense". The Oxford Companion to Chess lists 1,327 named openings and variants, and there are many others with varying degrees of common usage.[2]
+
+Opening moves that are considered standard are referred to as "book moves", or simply "book".[3] When a game begins to deviate from known opening theory, the players are said to be "out of book".[3] In some openings, book lines have been worked out for over 30 moves, such as some lines in the classical King's Indian Defense and in the Najdorf Variation of the Sicilian Defense.[4]
+
+Professional chess players spend years studying openings, and they continue doing so throughout their careers as opening theory continues to evolve. Players at the club level also study openings, but the importance of the opening phase i
+
+ [Complete description](https://en.wikipedia.org/wiki/Chess_opening)
+
+## [Wing Gambit]({{ "/openings/wing-gambit/" | relative_url }})
+
+![Wing Gambit](/openings/wing-gambit/wing-gambit.png)
+
+
+
+This article contains broken links to one or more target anchors:
+
+The anchors may have been removed, renamed, or are no longer valid. Please fix them by following the link above, checking the page history of the target pages, or updating the links.
+
+
+
+This gambit is referenced in an old french book by Tartakower "Le bréviaire des échecs", he called it "le gambit sicilien", another reference can be found in the Fine book "The Ideas Behind the Chess Openings", perhaps these two references could be added in the article.
+
+Lynxup07 (talk) 20:44, 10 April 2011 (UTC)[reply]
+
+The Tartakower book was translated into engish, the title is "A breviary of chess".
+
+Lynxup07 (talk) 07:24, 19 April 2011 (UTC)[reply]
+
+Sicilian Wing Gambit: Like the aritcle suggests, it's not the most logical responce to C5 and so it has largely fallen out of use. Therein lies some of its attraction, however. If you become familiar with it, your knowledge of an odd opening line might prove an advantage, especially over
+
+ [Complete description](https://en.wikipedia.org/wiki/Talk%3AWing_Gambit)
+
+## [The Three Knights Game]({{ "/openings/the-three-knights-game/" | relative_url }})
+
+![The Three Knights Game](/openings/the-three-knights-game/the-three-knights-game.png)
+
+
+
+The knight (♘, ♞) is a piece in the game of chess, represented by a horse's head and neck. It moves two squares vertically and one square horizontally, or two squares horizontally and one square vertically, jumping over other pieces. Each player starts the game with two knights on the b- and g-files, each located between a rook and a bishop.[1]
+
+Compared to other chess pieces, the knight's movement is unique: it moves two squares vertically and one square horizontally, or two squares horizontally and one square vertically (with both forming the shape of a capital L). Consequently, a knight alternates between light and dark squares with each move.[2] When moving, the knight can jump over pieces to reach its destination.[a][b][4] Knights capture in the same way, replacing the enemy piece on the square and removing it from the board. A knight can have up to eight available moves at once. Knights and pawns are the only pieces that can be moved in the chess starting position.[4]
+
+
+
+Knights 
+
+ [Complete description](https://en.wikipedia.org/wiki/Knight_(chess))
+
+## [Slav Defense]({{ "/openings/slav-defense/" | relative_url }})
+
+![Slav Defense](/openings/slav-defense/slav-defense.jpg)
+
+
+
+The Semi-Slav Defense is a variation of the Queen's Gambit Declined chess opening defined by the position reached after the moves:
+
+The position may readily be reached by a number of different move orders. Black's supporting pawns resemble a mixture of the Orthodox Queen's Gambit Declined, e6, and the Slav Defense, c6.
+
+Black is threatening to capture the white pawn on c4 and hold it with ...b7–b5. White can avoid this in a number of ways. About 80% of games continue 5.Bg5 or 5.e3: the former constitutes a sharp pawn sacrifice, while the latter restricts the dark-squared bishop from its natural development to g5. Other possible moves are 5.Qb3, 5.g3 and 5.cxd5, the last of which, after 5...exd5, leads to a line of the QGD Exchange Variation where White's early Nf3 enables Black's queen bishop to freely develop, which should give equality (ECO codes D43 and D45). 5.Bf4 is considered somewhat inaccurate, as 5...dxc4 is favorable for Black.
+
+The Semi-Slav is designated by codes D43 throug
+
+ [Complete description](https://en.wikipedia.org/wiki/Semi-Slav_Defense)
+
+## [Stafford Gambit]({{ "/openings/stafford-gambit/" | relative_url }})
+
+![Stafford Gambit](/openings/stafford-gambit/stafford-gambit.png)
+
+
+
+From Italian gambetto (“act of tripping; gambit”), from Italian gamba (“leg”), from Late Latin gamba.
+
+gambit (plural gambits)
+
+gambit (third-person singular simple present gambits, present participle gambiting, simple past and past participle gambited)
+
+gambit m (plural gambits)
+
+Borrowed from English gambit, from Italian gambetto, from gamba, from Late Latin gamba, from Ancient Greek καμπή (kampḗ), from Proto-Indo-European *kamp-.
+
+gambit m inan
+
+Borrowed from French gambit.
+
+gambit n (plural gambituri)
+
+gambit m inan
+
+
+ [Complete description](https://en.wikipedia.org/wiki/wikt:gambit)
 
