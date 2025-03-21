@@ -129,10 +129,8 @@ def generate_homepage(openings):
     print("Making homepage")
     homepage_content = """---
 layout: default
-title: Chess Openings
+title: Chess Openings Catalog
 ---
-
-# Chess Openings Catalog
 
 """
         
