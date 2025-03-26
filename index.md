@@ -3,4 +3,4 @@ layout: home
 title: My Homepage
 ---
 
-[Chess Openings Catalog](https://github.com/Igorsta/Web_Pages/)
+[Chess Openings Catalog](/Web_Pages/Task1/)
